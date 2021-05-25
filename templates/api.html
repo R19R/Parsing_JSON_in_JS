@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="api" action="/apijs" method="POST" id="form">
+    <p>Fav food <input type="text" name="food" id="food"></p>
+    <p>Fav Music<input type="text" name="music" ></p>
+    <input type="submit" id="btn" value="Submit">
+
+    
+
+    </form>
+    <!-- <script>
+        document.getElementById("btn").addEventListener("click", showValue);
+
+        function showValue(e){
+            e.preventDefault();
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST", '/apijs');
+            xhr.onload = function(){
+                // var f = document.getElementById("form").elements[0].value;
+                //var m = document.getElementById("form").elements[1].value;
+                //console.log(f,m);
+               
+            };
+            xhr.send();
+
+        };
+    </script> -->
+</body>
+</html>
